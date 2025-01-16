@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 7px 7px;
+}
+
+body{
+    background-color: coral;
+}
+
+.container{
+    border:thick double rgba(245, 222, 179, 0.845);
+    padding: 40px 20px;
+    max-width: 500px;
+    margin: 250px auto;
+    background-color: rgba(255, 255, 255, 0.226);
+    box-shadow: 1px 1px 15px 1px rgba(237, 176, 155, 0.751);
+    border-radius: 10px 10px;
+    place-items: center;
+}
+
+h1{
+    height: 50px;
+}
+
+.input{
+    text-decoration: none;
+    cursor: pointer;
+    height: 53px;
+    width: 300px;
+    border-color: rgba(255, 255, 255, 0.018);
+    border-radius: 5px 5px;
+    background-color: rgba(245, 222, 179, 0.845);
+    font-size: 16px;
+    padding: 0px 42px;
+}
+
+.info-text{
+    font-size: 16px;
+    padding: 15px 15px;
+}
+
+.meaning-container{
+    display: none;
+}
